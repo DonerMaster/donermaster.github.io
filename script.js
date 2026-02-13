@@ -8,6 +8,8 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Miluji tě! 😘";
   gif.src =
     "https://i.pinimg.com/originals/b9/c7/11/b9c711e03a47d4744226b372b3140016.gif";
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
 });
 
 noBtn.addEventListener("mouseover", () => {
